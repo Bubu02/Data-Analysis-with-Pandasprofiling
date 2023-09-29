@@ -7,4 +7,5 @@ print(df)
 
 # Generate a report
 profile = ProfileReport(df)
+# profile = ProfileReport(df, minimal= True)
 profile.to_file(output_file="fruit data.html")
